@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,122 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Personal code starts here */
+/* Header and navigation bar layout */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 3% 0 4% 0;
+}
+
+.nav-index {
+    width: 79%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-index a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-photo {
+    margin-bottom: 3%;
+}
+
+/* Home page box layout code starts here */
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* About page code starts here */
+.main-photo-about {
+    margin-bottom: 3%;
+}
+
+.about-section {
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+}
+
+/* styling blocks in the about section */
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-block {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 7%;
+}
+
+.about-block img {
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.about-text {
+    margin-bottom: 5%;
+}
+
+/* styling 'learn more' buttons */
+.about-button {
+    width: 36%;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 4%;
+    margin-bottom: 5%;
+}
+
+.about-button a {
+    text-decoration: none;
+    color: black;
+} 
+
+/* styling footer section */
+.work-together {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0% 3% 5% 3%;
+}
+
+.work-together h2, .work-together p {
+    text-align: left;
 }
