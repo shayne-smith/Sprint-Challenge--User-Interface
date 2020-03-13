@@ -162,7 +162,6 @@ footer nav a {
 .nav-index a {
     text-decoration: none;
     color: black;
-    font-weight: 600;
 }
 
 .main-photo {
@@ -220,13 +219,14 @@ footer nav a {
 }
 
 .about-block {
-    width: 45%;
+    width: 46%;
     border-bottom: 1px dashed black;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
 }
 
 .about-block img {
     margin-bottom: 2%;
+    width: 100%;
 }
 
 .about-text {
@@ -237,11 +237,11 @@ footer nav a {
 .about-button {
     width: 36%;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1% 4%;
+    padding: 1.5% 4%;
     margin-bottom: 5%;
 }
 
@@ -252,11 +252,10 @@ footer nav a {
 
 /* styling footer section */
 .work-together {
-    margin-top: 3%;
     display: flex;
     flex-wrap: wrap;
     width: 95%;
-    margin: 3% 3% 5% 3%;
+    margin: 0% 3% 5% 3%;
 }
 
 .work-together h2, .work-together p {
