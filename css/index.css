@@ -169,7 +169,7 @@ footer nav a {
     margin-bottom: 3%;
 }
 
-/* Box layout code starts here */
+/* Home page box layout code starts here */
 .box1 {
     background-color: teal;
 }
@@ -199,4 +199,66 @@ footer nav a {
 }
 .box10 {
     background-color: dodgerblue;
+}
+
+/* About page code starts here */
+.main-photo-about {
+    margin-bottom: 3%;
+}
+
+.about-section {
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+}
+
+/* styling blocks in the about section */
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-block {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.about-block img {
+    margin-bottom: 2%;
+}
+
+.about-text {
+    margin-bottom: 5%;
+}
+
+/* styling 'learn more' buttons */
+.about-button {
+    width: 36%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 4%;
+    margin-bottom: 5%;
+}
+
+.about-button a {
+    text-decoration: none;
+    color: black;
+} 
+
+/* styling footer section */
+.work-together {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 3% 3% 5% 3%;
+}
+
+.work-together h2, .work-together p {
+    text-align: left;
 }
